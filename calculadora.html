@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Seletores</title>
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+    <script src="calculadora.js"></script>
+</head>
+<body class="backg">
+    <div>
+        <h1>
+            Feito por: Thiago Luiz Mignac Cavalcanti <br>
+            Calculadora:
+        </h1>
+        <div id="tamanho">
+            <div><br></div>
+            <div><p id="resultado"></p></div>
+            <div >
+                <table class="centralizar" 
+                    <tr>
+                        <td><button class="botão" onclick="clean()">C</button></td>
+                        <td><button class="botão" onclick="insert('%')">%</button></td>
+                        <td><button class="botão" onclick="insert('/')">÷</button></td>
+                        <td><button class="botão" onclick="insert('*')">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botão" onclick="insert('7')">7</button></td>
+                        <td><button class="botão" onclick="insert('8')">8</button></td>
+                        <td><button class="botão" onclick="insert('9')">9</button></td>
+                        <td><button class="botão" onclick="insert('-')">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button class="botão" onclick="insert('4')">4</button></td>
+                        <td><button class="botão" onclick="insert('5')">5</button></td>
+                        <td><button class="botão" onclick="insert('6')">6</button></td>
+                        <td><button class="botão" onclick="insert('+')">+</button></td>
+                    </tr>
+                    <tr >
+                        <td><button class="botão" onclick="insert('1')">1</button></td>
+                        <td><button class="botão" onclick="insert('2')">2</button></td>
+                        <td><button class="botão" onclick="insert('3')">3</button></td>
+                    <tr>
+                        <td><button class="botão" onclick="insert('0')">0</button></td>
+                        <td><button class="botão" onclick="insert('.')">.</button></td>
+                        <td><button class="botão" onclick="back()">apagar</button></td>
+                        <td rowspan="2"><button class="botão" onclick="calcular()" style="height: 185px; margin-top: -100px; padding-top: 19px;" >=</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>

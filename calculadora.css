@@ -1,0 +1,37 @@
+.botão:hover { background-color: rgb(105, 126, 145) ;}
+.backg {
+    background-color: black;
+}
+h1{color: white;}
+
+#tamanho{
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+    margin: auto;
+    border-radius: 10px;
+}
+#resultado{
+    height: 60px;
+    background-color: rgb(226, 224, 221);
+    margin: 13px;
+    border-radius: 13px;
+    font-size: 50px;
+    color: black;
+    text-align: right;
+    overflow: hidden;
+    
+    
+}
+.botão{
+    background-color: rgb(87, 100, 110);
+    width: 90px;
+    height: 90px;
+    font-size:larger;
+    font-weight: bold;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.centralizar{
+    margin: auto;
+}
